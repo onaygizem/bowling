@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <script src="js/main.js"></script>
+      <script src="js/bowling.js"></script>
+      <style>
+        table, th, td {
+        border: 1px solid black;
+        }
+      </style>
+    <title>Bowling Scoring Program</title>
+  </head>
+  <body>
+    <form id="scoreBoard">
+      <h1>Bowling Score Calculator</h1>
+      <table style="width:30%">
+        <tr>
+          <th>Frame</th>
+          <th>Score</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td align="right">
+              <input type="text" maxlength="2" size="2" name="Display" id="1.1">
+              <input type="text" maxlength="2" size="2" name="Display" id="1.2">
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td align="right">
+              <input type="text" maxlength="2" size="2" name="Display" id="2.1">
+              <input type="text" maxlength="2" size="2" name="Display" id="2.2">
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td align="right">
+              <input type="text" maxlength="2" size="2" name="Display" id="3.1">
+              <input type="text" maxlength="2" size="2" name="Display" id="3.2">
+          </td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td align="right">
+              <input type="text" maxlength="2" size="2" name="Display" id="4.1">
+              <input type="text" maxlength="2" size="2" name="Display" id="4.2">
+          </td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td align="right">
+              <input type="text" maxlength="2" size="2" name="Display" id="5.1">
+              <input type="text" maxlength="2" size="2" name="Display" id="5.2">
+          </td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td align="right">
+              <input type="text" maxlength="2" size="2" name="Display" id="6.1">
+              <input type="text" maxlength="2" size="2" name="Display" id="6.2">
+          </td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td align="right">
+              <input type="text" maxlength="2" size="2" name="Display" id="7.1">
+              <input type="text" maxlength="2" size="2" name="Display" id="7.2">
+          </td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td align="right">
+              <input type="text" maxlength="2" size="2" name="Display" id="8.1">
+              <input type="text" maxlength="2" size="2" name="Display" id="8.2">
+          </td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td align="right">
+              <input type="text" maxlength="2" size="2" name="Display" id="9.1">
+              <input type="text" maxlength="2" size="2" name="Display" id="9.2">
+          </td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td align="right">
+              <input type="text" maxlength="2" size="2" name="Display" id="10.1">
+              <input type="text" maxlength="2" size="2" name="Display" id="10.2">
+          </td>
+        </tr>
+        <tr>
+          <td>bonus1</td>
+          <td align="right">
+              <input type="text" maxlength="2" size="2" name="Display" id="11.1">
+              <input type="text" maxlength="2" size="2" name="Display" id="11.2">
+          </td>
+        </tr>
+        <tr>
+          <td>bonus2</td>
+          <td align="right">
+            <input type="text" maxlength="2" size="2" name="Display" id="12.1">
+            <input type="text" maxlength="2" size="2" name="Display" id="12.2">
+          </td>
+        </tr>
+        <tr>
+          <td><input type="button" onclick="score()" value="Calculate"></td>
+          <td align="right">
+            <p id="sum">Total score</p>          
+          </td>
+        </tr>
+        <tr>
+            <td><input type="button" onclick="reset()" value="Reset"></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
