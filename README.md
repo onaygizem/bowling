@@ -20,7 +20,7 @@ http://localhost:8080/index.html
 npm run test
 ```
 ### **Things that can be improved**
-- Error checks can be added for user input. (example: if user entered the correct data)
+- Error checks can be added for user input. (example: if user entered higher than 10 scores in a frame)
 - Negative test cases can be added to test if error cases are handled successfully.
 
 
